@@ -1,10 +1,29 @@
-.column {
-  width: 50%;
-  float: left;
-}
-.column1 {
-  width: 50%;
-  float: right;
-  margin-top: 300px;
+.jumbotron {
+  background-image: url(https://image.shutterstock.com/image-vector/abstract-technology-binary-code-backgrounddigital-260nw-674184880.jpg);
   text-align: center;
+}
+
+h1 {
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+#html {
+  display: none;
+}
+
+#css {
+  display: none;
+}
+
+#js {
+  display: none;
+}
+
+#ruby {
+  display: none;
+}
+
+#python {
+  display: none;
 }
