@@ -7,13 +7,6 @@ body {
   background-color: rgb(238, 215, 215);
 }
 
-button {
-  text-align: center;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-}
-
 .btn {
   background-color: black;
   color: cyan;
@@ -59,4 +52,8 @@ option {
 p {
   text-align: center;
   font-size: 30px;
+}
+
+label {
+  font-weight: bold;
 }

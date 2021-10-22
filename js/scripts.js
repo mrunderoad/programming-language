@@ -1,7 +1,6 @@
 $(document).ready(function() { 
   $("form#form").submit(function(event) {
     event.preventDefault();
-    const name= $("input#name").val();
     const food= $("select#food").val();
     const music= $("select#music").val();
     const animal= $("select#animal").val();
@@ -28,7 +27,46 @@ $(document).ready(function() {
       $('#html').hide();
       $('#css').hide();
       $('#js').show();
-    }
-    
+    } else if (food === 'asian' && animal === 'dog') {
+      $('#html').show();
+      $('#css').hide();
+      $('#js').hide();
+    } else if (music === 'rock' && animal === 'dog') {
+      $('#html').hide();
+      $('#css').hide();
+      $('#js').show();
+    } else if (music === 'rock' && animal === 'cat') {
+      $('#html').hide();
+      $('#css').show();
+      $('#js').hide();
+    } else if (music === 'indie' && fun === 'sky') {
+      $('#html').show();
+      $('#css').hide();
+      $('#js').hide();
+    } else if (color === 'red' && animal === 'dog') {
+      $('#html').hide();
+      $('#css').hide();
+      $('#js').show();
+    }else if (color === 'red' && animal === 'cat') {
+      $('#html').hide();
+      $('#css').show();
+      $('#js').hide();
+    } else if (color === 'blue' && animal === 'dog') {
+      $('#html').hide();
+      $('#css').hide();
+      $('#js').show();
+    } else if (fun === 'sky' && music === 'rock') {
+      $('#html').show();
+      $('#css').hide();
+      $('#js').hide();
+    } else if (fun === 'bungee' && animal === 'dog') {
+      $('#html').hide();
+      $('#css').show();
+      $('#js').hide();
+    } else if (fun === 'sky' && food === 'american') {
+      $('#html').show();
+      $('#css').hide();
+      $('#js').hide();
+    } 
   });
 });
