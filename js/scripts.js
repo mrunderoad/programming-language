@@ -75,7 +75,11 @@ $(document).ready(function() {
       $('#html').hide();
       $('#css').show();
       $('#js').hide();
+    } else if (food === 'american' && color === 'blue') {
+      $('#html').show();
+      $('#css').hide();
+      $('#js').hide();
     } else 
-    alert("Try a different combination!")
+    alert("Uh Oh! Looks like you got an invalid result! Try a different combination!");
   });
 });
