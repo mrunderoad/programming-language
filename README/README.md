@@ -21,3 +21,4 @@ No known bugs at this time.
 
 ## Licensing
 MIT copyright Isaac Overstreet 10/22/2021
+https://opensource.org/licenses/MIT

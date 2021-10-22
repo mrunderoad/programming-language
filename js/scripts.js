@@ -47,7 +47,7 @@ $(document).ready(function() {
       $('#html').hide();
       $('#css').hide();
       $('#js').show();
-    }else if (color === 'red' && animal === 'cat') {
+    } else if (color === 'red' && animal === 'cat') {
       $('#html').hide();
       $('#css').show();
       $('#js').hide();

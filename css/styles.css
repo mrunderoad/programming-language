@@ -9,11 +9,16 @@ body {
 
 .btn {
   background-color: red;
-  color: cyan;
+  color: rgb(0, 0, 0);
+  border-radius: 40px;
+  margin-top: 15px;
+  margin-left: 475px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 1px 1px skyblue;
 }
 
 .btn:hover {
-  color: rgb(17, 0, 255);
+  color: rgb(255, 230, 0);
 }
 
 h1 {
@@ -35,7 +40,7 @@ h1 {
 
 .info {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   background-color: rgb(233, 98, 98);
   border: 5px solid rgb(255, 0, 0) ;
   border-radius: 25px;
@@ -49,6 +54,11 @@ h3 {
   text-align: center;
   font-size: 50px;
   color: crimson;
+  background-color: yellowgreen;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 15px;
+  border-radius: 10px;
 }
 
 option {
@@ -68,31 +78,38 @@ label {
 .column1 {
   float: left;
   width: 50%;
-  border: 3px solid white;
+  border: 5px solid rgba(255, 255, 255, 0.356);
   padding-right: 10px;
   padding-left: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: violet;
+  background-color: rgb(172, 172, 172);
+  border-radius: 40px;
 }
 
 .column2 {
   float: right;
   width: 50%;
-  border: 3px solid white;
+  border: 5px solid rgba(255, 255, 255, 0.356);
   padding-right: 10px;
   padding-left: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: yellow;
+  background-color: rgb(172, 172, 172);
+  border-radius: 40px;
 }
 
 .column3 {
   float: center;
-  border: 3px solid white;
+  border: 5px solid rgba(255, 255, 255, 0.356);
   padding-right: 30px;
   padding-left: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: turquoise;
+  background-image: url(https://images.unsplash.com/photo-1610311911648-24d33745eb39?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dHJpcHB5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  border-radius: 40px;
+}
+
+.form-control {
+  background-image: url(https://images.unsplash.com/photo-1583173451851-dd9ba01f891e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHRyaXBweXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
 }
