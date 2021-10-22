@@ -20,136 +20,32 @@
           <label for="name">Please enter your full name here:</label>
           <input id="name" class="form-control" type="text">
         </div>
-        <h2>Pick your favorite type of food from this list:</h2>
-        <div class="radio">
-          <label>
-            <input type="radio" name="food" value="Thai" checked> Thai food!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="food" value="american"> American food!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="food" value="italian"> Italian food!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="food" value="french"> French food!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="food" value="Chinese"> Chinese food!
-          </label>
-        </div>
-        <h2>Pick your favorite type of music from these options:</h2>
-        <div class="radio">
-          <label>
-            <input type="radio" name="music" value="rock" checked> Rock!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="music" value="punk"> Punk!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="music" value="indie"> Indie!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="music" value="rap"> Rap!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="music" value="classic"> Classical!
-          </label>
-        </div>
-        <h2>What animal interests you the most?</h2>
-        <div class="radio">
-          <label>
-            <input type="radio" name="animal" value="cat" checked> Kitty Cats!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="animal" value="dog"> Doggies!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="animal" value="squirrel"> Squirrels!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="animal" value="koala"> Koalas!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="animal" value="monkey"> Monkeys!
-          </label>
-        </div>
-        <h2>Which of these color stand out to you?</h2>
-        <div class="radio">
-          <label>
-            <input type="radio" name="color" value="red" checked> Red!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="color" value="blue"> Blue!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="color" value="pink"> Pink!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="color" value="purple"> Purple!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="color" value="black"> Black!
-          </label>
-        </div>
+        <h2>American or Asian food?</h2>
+        <select class="form-control" id="food">
+          <option value="1">American!</option>
+          <option value="2">Asian!</option>
+        </select>
+        <h2>Rock or Indie music??</h2>
+        <select class="form-control" id="music">
+          <option value="1">Rock!</option>
+          <option value="2">Indie!</option>
+        </select>
+        <h2>Are you a cat or dog person?</h2>
+        <select class="form-control" id="animal">
+          <option value="1">Cats!</option>
+          <option value="2">Dogs!</option>
+        </select>
+        <h2>Would you take the red pill or blue pill?</h2>
+        <select class="form-control" id="color">
+          <option value="1">Red pill!</option>
+          <option value="2">Blue pill!</option>
+        </select>
         <h2>Last off, which of these sounds the most fun?</h2>
-        <div class="radio">
-          <label>
-            <input type="radio" name="fun" value="sky" checked> Skydiving!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="fun" value="bungee"> Bungee Jumping!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="fun" value="swim"> Swimming with Sharks!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="fun" value="board"> Snowboarding!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="fun" value="skate"> Skateboarding!
-          </label>
-        </div>
+        <select class="form-control" id="fun">
+          <option value="1">Skydiving!</option>
+          <option value="2">Bungee Jumping!</option>
+        </select>
+        <button type="submit" class="btn">Find out here!</button>
       </form>
     </div>
     <div id="html">
@@ -160,12 +56,6 @@
     </div>
     <div id="js">
       <p>Well <span id="name"></span>. Looks like <em>JAVASCRIPT</em> would be the best fit for you! Click <a href"">here</a> for information about <em>JAVASCRIPT</em>.</p>
-    </div>
-    <div id="ruby">
-      <p>Well <span id="name"></span>. Looks like <em>RUBY</em> would be the best fit for you! Click <a href"">here</a> for information about <em>RUBY</em>.</p>
-    </div>
-    <div id="python">
-      <p>Well <span id="name"></span>. Looks like <em>PYTHON</em> would be the best fit for you! Click <a href"">here</a> for information about <em>PYTHON</em>.</p>
     </div>
   </div>
   </div>

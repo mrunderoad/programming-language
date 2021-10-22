@@ -1,13 +1,16 @@
-$("form#form").submit(function(event) {
-  const food=
-  $("input:radio[name=food]:checked").val();
-  const music=
-  $("input:radio[name=food]:checked").val();
-  const animal=
-  $("input:radio[name=food]:checked").val();
-  const color=
-  $("input:radio[name=food]:checked").val();
-  const fun=
-  $("input:radio[name=food]:checked").val();
-  let total=0;
+$(document).ready(function() { 
+ $("form#form").submit(function(event) {
+  event.preventDefault();
+  const name = $("input#name").val();
+  const food = $("radio#food").val();
+  const music = $("radio#music").val();
+  const animal = $("radio#animal").val();
+  const color = $("radio#color").val();
+  const fun = $("radio#fun").val();
+
+  if (food === 'thai' && music === 'rock') {
+    $('#html').show();
+  }
+
+  });
 });

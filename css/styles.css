@@ -3,6 +3,15 @@
   text-align: center;
 }
 
+.btn {
+  background-color: black;
+  color: cyan;
+}
+
+.btn:hover {
+  color: red;
+}
+
 h1 {
   color: aliceblue;
   font-family: sans-serif;
