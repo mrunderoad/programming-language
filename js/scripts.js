@@ -62,11 +62,20 @@ $(document).ready(function() {
     } else if (fun === 'bungee' && animal === 'dog') {
       $('#html').hide();
       $('#css').show();
-      $('#js').hide();
+      $('#js').hide();  
     } else if (fun === 'sky' && food === 'american') {
       $('#html').show();
       $('#css').hide();
       $('#js').hide();
-    } 
+    } else if (food === 'american' && color === 'red') {
+      $('#html').show();
+      $('#css').hide();
+      $('#js').hide();
+    } else if (fun === 'sky' && color === 'red') {
+      $('#html').hide();
+      $('#css').show();
+      $('#js').hide();
+    } else 
+    alert("Try a different combination!")
   });
 });

@@ -4,16 +4,16 @@
 }
 
 body {
-  background-color: rgb(238, 215, 215);
+  background-image: url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
 }
 
 .btn {
-  background-color: black;
+  background-color: red;
   color: cyan;
 }
 
 .btn:hover {
-  color: red;
+  color: rgb(17, 0, 255);
 }
 
 h1 {
@@ -45,6 +45,12 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+  font-size: 50px;
+  color: crimson;
+}
+
 option {
   text-align: center;
 }
@@ -52,6 +58,7 @@ option {
 p {
   text-align: center;
   font-size: 30px;
+  color: antiquewhite;
 }
 
 label {
