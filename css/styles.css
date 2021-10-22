@@ -57,3 +57,35 @@ p {
 label {
   font-weight: bold;
 }
+
+.column1 {
+  float: left;
+  width: 50%;
+  border: 3px solid white;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: violet;
+}
+
+.column2 {
+  float: right;
+  width: 50%;
+  border: 3px solid white;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: yellow;
+}
+
+.column3 {
+  float: center;
+  border: 3px solid white;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: turquoise;
+}
