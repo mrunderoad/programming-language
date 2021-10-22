@@ -3,6 +3,17 @@
   text-align: center;
 }
 
+body {
+  background-color: rgb(238, 215, 215);
+}
+
+button {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
 .btn {
   background-color: black;
   color: cyan;
@@ -27,4 +38,25 @@ h1 {
 
 #js {
   display: none;
+}
+
+.info {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(233, 98, 98);
+  border: 5px solid rgb(255, 0, 0) ;
+  border-radius: 25px;
+}
+
+h2 {
+  text-align: center;
+}
+
+option {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
 }
